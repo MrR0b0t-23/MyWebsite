@@ -8795,7 +8795,7 @@ h1, h2, h3, h4, h5,
   .services-1 .icon {
     display: block;
     margin-bottom: 30px; }
-    .services-1 .icon i {
+    .services-1 .icon img {
       font-size: 60px;
       line-height: 1.0;
       color: #3e64ff; }
@@ -8833,7 +8833,7 @@ h1, h2, h3, h4, h5,
     color: rgba(0, 0, 0, 0.9); }
   .services-1:hover {
     background: #3e64ff; }
-    .services-1:hover .icon i {
+    .services-1:hover .icon img {
       color: #fff; }
     .services-1:hover h3 {
       color: #fff; }
