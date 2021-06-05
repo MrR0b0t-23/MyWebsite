@@ -1,0 +1,57 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?7d1ca98d236886ba42f3c8c4f3981795") format("truetype"),
+url("./flaticon.woff?7d1ca98d236886ba42f3c8c4f3981795") format("woff"),
+url("./flaticon.woff2?7d1ca98d236886ba42f3c8c4f3981795") format("woff2"),
+url("./flaticon.eot?7d1ca98d236886ba42f3c8c4f3981795#iefix") format("embedded-opentype"),
+url("./flaticon.svg?7d1ca98d236886ba42f3c8c4f3981795#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "graduation-hat": "\f101",
+    "analysis": "\f102",
+    "speech-bubble": "\f103",
+    "brain": "\f104",
+    "deep-learning": "\f105",
+    "vision": "\f106",
+    "innovation": "\f107",
+    "certificate": "\f108",
+);
+
+.flaticon-graduation-hat:before {
+    content: map-get($flaticon-map, "graduation-hat");
+}
+.flaticon-analysis:before {
+    content: map-get($flaticon-map, "analysis");
+}
+.flaticon-speech-bubble:before {
+    content: map-get($flaticon-map, "speech-bubble");
+}
+.flaticon-brain:before {
+    content: map-get($flaticon-map, "brain");
+}
+.flaticon-deep-learning:before {
+    content: map-get($flaticon-map, "deep-learning");
+}
+.flaticon-vision:before {
+    content: map-get($flaticon-map, "vision");
+}
+.flaticon-innovation:before {
+    content: map-get($flaticon-map, "innovation");
+}
+.flaticon-certificate:before {
+    content: map-get($flaticon-map, "certificate");
+}
