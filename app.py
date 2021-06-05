@@ -5,7 +5,7 @@ from werkzeug.utils import redirect
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///contacts.sqlite3'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://zathiyvmdgdppx:dda34e37d039aec1369d1d9b0a9cbf85abbd3e67855e309cf9252c1295092206@ec2-3-226-134-153.compute-1.amazonaws.com:5432/d7q3hk6vs7oh5k'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 database = SQLAlchemy(app)
