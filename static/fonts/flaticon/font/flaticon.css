@@ -1,10 +1,10 @@
 @font-face {
     font-family: "flaticon";
-    src: url("./flaticon.ttf?7d1ca98d236886ba42f3c8c4f3981795") format("truetype"),
-url("./flaticon.woff?7d1ca98d236886ba42f3c8c4f3981795") format("woff"),
-url("./flaticon.woff2?7d1ca98d236886ba42f3c8c4f3981795") format("woff2"),
-url("./flaticon.eot?7d1ca98d236886ba42f3c8c4f3981795#iefix") format("embedded-opentype"),
-url("./flaticon.svg?7d1ca98d236886ba42f3c8c4f3981795#flaticon") format("svg");
+    src: url("http://ashwins.herokuapp.com/static/flaticon.ttf?7d1ca98d236886ba42f3c8c4f3981795") format("truetype"),
+url("http://ashwins.herokuapp.com/static/flaticon.woff?7d1ca98d236886ba42f3c8c4f3981795") format("woff"),
+url("http://ashwins.herokuapp.com/static/flaticon.woff2?7d1ca98d236886ba42f3c8c4f3981795") format("woff2"),
+url("http://ashwins.herokuapp.com/static/flaticon.eot?7d1ca98d236886ba42f3c8c4f3981795#iefix") format("embedded-opentype"),
+url("http://ashwins.herokuapp.com/static/flaticon.svg?7d1ca98d236886ba42f3c8c4f3981795#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
