@@ -8,8 +8,10 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-	<link rel="stylesheet" href="{{ url_for('static', filename='styles.pure.css')}}">
-	
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css' )}}">
+	<link rel="stylesheet" href="{{ url_for('static', filename= 'css/flaticon.css' )}}">
+	<link rel="stylesheet" href="{{ url_for('static', filename= 'css/icomoon.css' )}}">
+	<link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css' )}}">
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -437,7 +439,7 @@
 						</div>
 						<div>
 							<h3 class="mb-4">
-								<p><a href="tel://9489505118">Contact Number</a></p>
+								<p></p>
 							</h3>
 							
 						</div>
@@ -470,7 +472,7 @@
 
 			<div class="row no-gutters block-9">
 				<div class="col-md-6 order-md-last d-flex">
-					<form action ="/" class="bg-light p-4 p-md-5 contact-form" method="POST">
+					<form class="bg-light p-4 p-md-5 contact-form" method="POST">
 						<div class="form-group">
 							<input type="text" name="name" id ="name" class="form-control" placeholder="Your Name">
 						</div>
@@ -492,7 +494,7 @@
 				</div>
 
 				<div class="col-md-6 d-flex">
-					<img src="{{ url_for('static', filename='images/Sent Message.gif' ) }}">
+					<img src="{{ url_for('static', filename='images/Sent message.gif' ) }}">
 				</div>
 			</div>
 		</div>
@@ -545,7 +547,6 @@
 						<div class="block-23 mb-3">
 							<ul>
 								<li><span class="icon icon-map-marker"></span><span class="text">Erode West, TamilNadu, India</span></li>
-								<li><a href="tel://9489505118"><span class="icon icon-phone"></span><span class="text">Contact Number</span></a></li>
 							</ul>
 						</div>
 					</div>
