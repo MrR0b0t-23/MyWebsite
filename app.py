@@ -25,7 +25,6 @@ class contacts(database.Model):
         self.subject = subject
         self.message = message
 
-
 @app.route('/',  methods = ['GET', 'POST'])
 def hello_world():
     if request.method == "POST":
